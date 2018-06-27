@@ -1,0 +1,22 @@
+{
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "description": "Scrape le web.",
+  "author": "Toanpk",
+  "scripts": {
+    "start": "node ./app.js",
+    "sync-db": "node ./common/syncDb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scotch-io/node-web-scraper"
+  },
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.25.0",
+    "ejs": "^1.0.0"
+  }
+}

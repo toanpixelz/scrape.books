@@ -1,0 +1,19 @@
+{
+    "dev": {
+      "username": "root",
+      "password": null,
+      "database": "scrape",
+      "host": "localhost",
+      "port": "3306",
+      "dialect": "mysql"
+    },
+    "pro": {
+        "username": "root",
+        "password": "123456",
+        "database": "scrape",
+        "host": "localhost",
+        "port": "3306",
+        "dialect": "mysql"
+    }
+  }
+  
